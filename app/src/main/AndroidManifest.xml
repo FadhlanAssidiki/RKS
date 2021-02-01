@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fadhlan.spotify">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Joox">
+        <activity android:name="com.fadhlan.spotify.dyhohaw"></activity>
+        <activity android:name="com.fadhlan.spotify.momonon" />
+        <activity android:name="com.fadhlan.spotify.tony" />
+        <activity android:name="com.fadhlan.spotify.bobmarley" />
+        <activity android:name="com.fadhlan.spotify.reggae" />
+        <activity android:name="com.fadhlan.spotify.redvelvet" />
+        <activity android:name="com.fadhlan.spotify.momoland" />
+        <activity android:name="com.fadhlan.spotify.twice" />
+        <activity android:name="com.fadhlan.spotify.blackpink" />
+        <activity android:name="com.fadhlan.spotify.kpop" />
+        <activity android:name="com.fadhlan.spotify.shawnmendes" />
+        <activity android:name="com.fadhlan.spotify.justinbieber" />
+        <activity android:name="com.fadhlan.spotify.maroon" />
+        <activity android:name="com.fadhlan.spotify.arianagrande" />
+        <activity android:name="com.fadhlan.spotify.internasional" />
+        <activity android:name="com.fadhlan.spotify.arilasso" />
+        <activity android:name="com.fadhlan.spotify.lastchild" />
+        <activity android:name="com.fadhlan.spotify.seventeen" />
+        <activity android:name="com.fadhlan.spotify.ipank" />
+        <activity android:name="com.fadhlan.spotify.afgan" />
+        <activity android:name="com.fadhlan.spotify.felix" />
+        <activity android:name="com.fadhlan.spotify.rizky_febian" />
+        <activity android:name="com.fadhlan.spotify.andmesh" />
+        <activity android:name="com.fadhlan.spotify.favorit" />
+        <activity android:name="com.fadhlan.spotify.playlist" />
+        <activity android:name="com.fadhlan.spotify.artist" />
+        <activity android:name="com.fadhlan.spotify.beranda" />
+        <activity android:name="com.fadhlan.spotify.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
